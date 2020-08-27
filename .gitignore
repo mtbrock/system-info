@@ -1,3 +1,6 @@
 __pycache__
 node_modules
 **/*cache
+/static
+**/*/static/app/index.js*
+**/*/static/app/index.css*
