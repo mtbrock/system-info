@@ -18,3 +18,4 @@ pyflakes==2.2.0           # via flake8
 pynvim==0.4.1             # via neovim
 pytz==2020.1              # via -r common.txt, django
 sqlparse==0.3.1           # via -r common.txt, django
+uwsgi==2.0.19.1           # via -r common.txt
