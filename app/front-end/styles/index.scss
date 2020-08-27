@@ -1,0 +1,38 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.value-container {
+  text-align: center;
+  width: 12em;
+  height: 12em;
+  border-right: 1px solid #bdbdbd;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  & h1 {
+    font-weight: normal;
+  }
+
+  & .value {
+    font-weight: normal;
+  }
+
+  & .info {
+    font-weight: normal;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 36em;
+  margin: 0 auto;
+  border: 1px solid #bdbdbd;
+}

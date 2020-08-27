@@ -1,0 +1,33 @@
+{% load static %}
+
+<!doctype html>
+<html>
+  <head>
+    <title>System Resource Info</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static "app/index.css" %}">
+  </head>
+  <body>
+    <p>Hello buddy</p>
+    <h1>System Resource Usage</h1>
+    <div class="container">
+      <div class="value-container" id="cpu-container">
+        <h1>CPU</h1>
+        <h2 class="value" id="cpu-value"></h2>
+        <p class="info" id="cpu-info"></p>
+      </div>
+      <div class="value-container" id="ram-container">
+        <h1>RAM</h1>
+        <h2 class="value" id="ram-value"></h2>
+        <p class="info" id="ram-info"></p>
+      </div>
+      <div class="value-container" id="disk-container">
+        <h1>Disk</h1>
+        <h2 class="value" id="disk-value"></h2>
+        <p class="info" id="disk-info"></p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="{% static "app/index.js" %}"></script>
+  </body>
+</html>
