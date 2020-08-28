@@ -26,7 +26,7 @@ SECRET_KEY = '-2z-xnq!*bc%so3ke&chqh+t%duryblmi84pa(_)!b4t=29_2d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mattbrock.dev', 'www.mattbrock.dev']
 
 
 # Application definition
