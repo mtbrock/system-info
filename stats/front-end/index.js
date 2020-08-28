@@ -1,33 +1,3 @@
-//var ctx = document.getElementById('cpu-chart').getContext('2d');
-
-//var chart = new Chart(ctx, {
-    //// The type of chart we want to create
-    //type: 'doughnut',
-
-    //// The data for our dataset
-    //data: {
-        //datasets: [{
-            //label: 'CPU %',
-            //backgroundColor: ['#1e88e5', '#bdbdbd'],
-            //borderColor: 'rgb(255, 99, 132)',
-            //data: [33, 67]
-        //}],
-        //labels: [
-            //'Used',
-            //'Available',
-        //],
-        //options: {
-            //title: {
-                //display: true,
-                //text: 'CPU %'
-            //}
-        //}
-    //},
-
-    //// Configuration options go here
-    //options: {}
-//});
-//
 import axios from 'axios';
 import './styles/index.scss';
 
